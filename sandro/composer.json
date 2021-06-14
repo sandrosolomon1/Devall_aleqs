@@ -1,0 +1,23 @@
+{
+    "name": "devall/sandro",
+    "description": "N/A",
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~7.3.0||~7.4.16",
+        "magento/framework": "*",
+        "magento/theme-frontend-blank": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
+
